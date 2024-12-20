@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #1abc9c;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+}
+
+.main-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.main-container .login-form {
+    line-height: 80px;
+    background: #16a085;
+    text-align: center;
+    border-radius: 5px 5px 0 0;    
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-container form {
+    padding: 30px 25px 25px 25px;
+}
+
+.main-container form .row {
+    height: 40px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.main-container form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+form .row input:focus {
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+
+.main-container form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    background-color: #16a085;
+    border: 1px solid #16a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+}
+
+.main-container form .pass {
+    margin: -10px 0 20px 0;
+}
+
+.main-container form .pass a{
+    color: #16a085;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.main-container form .pass a:hover {
+    text-decoration: underline;
+}
+
+.main-container form .button input {
+    padding-left: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    background: #16a085;
+    color: #fff;
+    border: 1px solid #16a085;
+    cursor: pointer;
+}
+
+form .button input:hover {
+    background: #12876f;
+}
+
+.main-container form .signup {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.main-container form .signup a{
+    color: #16a085;
+    text-decoration: none;
+}
+
+.main-container form .signup a:hover {
+    text-decoration: underline;
+}
